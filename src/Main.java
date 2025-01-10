@@ -33,7 +33,7 @@ public class Main extends Application {
 
         VBox layout = new VBox(10, valueTextField, insertButton, rootPane);
 
-        Scene scene = new Scene(layout, 1000, 1000);
+        Scene scene = new Scene(layout, 800, 600);
         primaryStage.setTitle("Red-Black Tree Visualization");
         primaryStage.setScene(scene);
         primaryStage.show();
